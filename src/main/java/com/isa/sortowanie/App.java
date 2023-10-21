@@ -8,8 +8,8 @@ public class App {
         int[] randomArray = new int[size];
         Random random = new Random();
 
-        for (int i = 0; i < 10; i++) {
-            randomArray[i] = random.nextInt(1000);
+        for (int i = 0; i < size; i++) {
+            randomArray[i] = random.nextInt(10000);
         }
 
         System.out.println("____________________");

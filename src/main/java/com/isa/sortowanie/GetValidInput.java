@@ -18,7 +18,7 @@ public class GetValidInput {
                 }
             } else {
                 System.out.println("To nie jest prawidłowa liczba. Spróbuj ponownie.");
-                scanner.next(); // uniknanie pętli nieskończonej
+                scanner.next();
             }
         }
         return input;
