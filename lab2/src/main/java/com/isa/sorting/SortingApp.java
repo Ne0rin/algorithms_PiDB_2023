@@ -25,7 +25,7 @@ public class SortingApp {
         do {
             swapped = false;
             for (int i = 1; i < size; i++) {
-                if (randomArray[i-1]>randomArray[i]) {
+                if (randomArray[i - 1] > randomArray[i]) {
                     int temp = randomArray[i - 1];
                     randomArray[i - 1] = randomArray[i];
                     randomArray[i] = temp;
@@ -37,7 +37,7 @@ public class SortingApp {
         System.out.println("");
         System.out.println("____________________");
         System.out.println("Posortowana tablica: ");
-        for (int arraySort:randomArray) {
+        for (int arraySort : randomArray) {
             System.out.print(arraySort + " ");
         }
         System.out.println(" ");
